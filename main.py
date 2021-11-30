@@ -103,8 +103,8 @@ class YA: #Загрузка фото на я.диск
 
 
 if __name__ == '__main__':
-    token_vk = '958eb5d439726565e9333aa30e50e0f937ee432e927f0dbd541c541887d919a7c56f95c04217915c32008'
-    token_ya = "AQAAAAAWGc4EAADLW2yBrRRXYEaXl075mlGOGIA"
+    token_vk = '008'
+    token_ya = "GOGIA"
     get_id_vk = get_id(token_vk, 552934290)  #Получить id вк, можно как id так и username
     vk = VK(token_vk, get_id_vk)
     vk_get_photo = vk.get_photo()
